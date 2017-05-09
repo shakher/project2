@@ -1,0 +1,11 @@
+create database project2;
+
+use project2;
+
+CREATE TABLE `tabledb` (
+  `Name` varchar(100) NOT NULL,
+`ID` int(11) NOT NULL auto_increment,
+  `Address` int(3) NOT NULL,
+  `Email` varchar(100) NOT NULL,
+  PRIMARY KEY  (`ID`)
+);
